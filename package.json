@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Cebi-coder/serverside-unit-testing/issues"
   },
-  "homepage": "https://github.com/Cebi-coder/serverside-unit-testing#readme"
+  "homepage": "https://github.com/Cebi-coder/serverside-unit-testing#readme",
+  "devDependencies": {
+    "mocha": "^8.1.1"
+  }
 }
