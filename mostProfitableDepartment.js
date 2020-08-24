@@ -16,6 +16,7 @@ module.exports  = function mostProfitableDepartment(salesData){
        for (var i in topDepartment){
        if(topDepartment[i] > x){
        x = topDepartment[i]
+      
        z = i;  
        }
   }
