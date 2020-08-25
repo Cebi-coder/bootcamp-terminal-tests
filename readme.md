@@ -1,1 +1,0 @@
-https://travis-ci.org/Cebi-coder/serverside-unit-testing.svg?branch=master
