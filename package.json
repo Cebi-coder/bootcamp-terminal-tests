@@ -1,23 +1,27 @@
 {
-  "name": "test",
+  "name": "bootcamp-terminal-tests",
   "version": "1.0.0",
-  "description": "",
-  "main": "countAllFromTown.test.js",
+  "description": "https://travis-ci.org/Cebi-coder/serverside-unit-testing.svg?branch=master",
+  "main": "countAllFromTown.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^8.1.1"
+  },
   "scripts": {
     "test": "mocha"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Cebi-coder/serverside-unit-testing.git"
+    "url": "git+https://github.com/Cebi-coder/bootcamp-terminal-tests.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Cebi-coder/serverside-unit-testing/issues"
+    "url": "https://github.com/Cebi-coder/bootcamp-terminal-tests/issues"
   },
-  "homepage": "https://github.com/Cebi-coder/serverside-unit-testing#readme",
-  "devDependencies": {
-    "mocha": "^8.1.1"
-  }
+  "homepage": "https://github.com/Cebi-coder/bootcamp-terminal-tests#readme"
 }
