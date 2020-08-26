@@ -7,22 +7,69 @@ describe("the findItemsOver function", function () {
     it('should return all the products that have a quantity higher than 20', function () {
 
         var itemList = [
-            {name : 'apples', qty : 23},
-            {name : 'pears', qty : 37},
-            {name : 'bananas', qty : 27},
-            {name : 'grapes', qty : 13},
+            { name: 'apples', qty: 23 },
+            { name: 'pears', qty: 37 },
+            { name: 'bananas', qty: 27 },
+            { name: 'grapes', qty: 13 },
         ];
-        
+
         var results = findItemsOver(itemList, 20)
-        
+
         var results = [
-            {name : 'apples', qty : 23},
-            {name : 'pears', qty : 37},
-            {name : 'bananas', qty : 27},
-            
-            
+            { name: 'apples', qty: 23 },
+            { name: 'pears', qty: 37 },
+            { name: 'bananas', qty: 27 },
+
+
         ];
-        
-        assert.deepEqual(findItemsOver(itemList,20), results);
+
+        assert.deepEqual(findItemsOver(itemList, 20), results);
+    });
+
+    it('should return all the products that have a quantity higher than 20', function () {
+
+        var itemList = [
+            { name: 'apples', qty: 23 },
+            { name: 'pears', qty: 37 },
+            { name: 'bananas', qty: 27 },
+            { name: 'grapes', qty: 13 },
+
+        ];
+
+        var results = findItemsOver(itemList, 20)
+
+        var results = [
+            { name: 'apples', qty: 23 },
+            { name: 'pears', qty: 37 },
+            { name: 'bananas', qty: 27 },
+
+
+        ];
+
+        assert.deepEqual(findItemsOver(itemList, 20), results);
+    });
+
+
+    it('should return all the products that have a quantity higher than 20', function () {
+
+        var itemList = [
+            { name: 'apples', qty: 23 },
+            { name: 'pears', qty: 17 },
+            { name: 'bananas', qty: 27 },
+            { name: 'grapes', qty: 40 },
+
+        ];
+
+        var results = findItemsOver(itemList, 20)
+
+        var results = [
+            { name: 'apples', qty: 23 },
+            { name: 'bananas', qty: 27 },
+            { name: 'grapes', qty: 40 },
+
+        ];
+
+        assert.deepEqual(findItemsOver(itemList, 20), results);
+
     });
 });
